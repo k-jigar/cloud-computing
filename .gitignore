@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Decoupled Model Weights (Published strictly as GitHub Release assets and S3 objects)
+# Never commit large binary model weights to Git
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+models/v1/model.safetensors
+models/v2/model.safetensors
+
+# Security and Credentials
+*.env
+*.pem
+*.key
+credentials
+secrets
+
+# OS and IDE caches
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# Temporary archives
+cloud_assignment.zip

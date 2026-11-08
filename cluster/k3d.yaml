@@ -1,0 +1,19 @@
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+metadata:
+  name: mini-cloud
+servers: 1
+agents: 1
+image: rancher/k3s:v1.30.2-k3s1
+ports:
+  - port: 8080:80
+    nodeFilters:
+      - loadbalancer
+  - port: 8333:8333
+    nodeFilters:
+      - loadbalancer
+options:
+  k3d:
+    wait: true
+    timeout: "120s"
+
