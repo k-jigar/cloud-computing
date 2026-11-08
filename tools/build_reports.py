@@ -95,7 +95,7 @@ class ReflectionCanvas(canvas.Canvas):
         # Footer info
         self.setFont("Times-Italic", 8)
         self.setFillColor(colors.HexColor("#718096"))
-        self.drawString(84, 25, "GitHub: https://github.com/jigarkumar23/cloud-assistant-kd")
+        self.drawString(84, 25, "GitHub: https://github.com/k-jigar/cloud-computing")
         self.drawRightString(612 - 48, 25, "Signed: Jigar Kumar")
         self.restoreState()
 
@@ -189,7 +189,7 @@ def build_technical_report(out_path="report/report.pdf"):
     story.append(Paragraph("Sequence-Level Knowledge Distillation and Lightweight Cloud Deployment", subtitle_style))
     story.append(Paragraph(
         "<b>Student:</b> Jigar Kumar &nbsp;|&nbsp; <b>Roll Number:</b> 230103022 &nbsp;|&nbsp; "
-        "<b>Instructor:</b> Michael Salam &nbsp;|&nbsp; <b>Repository:</b> https://github.com/jigarkumar23/cloud-assistant-kd",
+        "<b>Instructor:</b> Michael Salam &nbsp;|&nbsp; <b>Repository:</b> https://github.com/k-jigar/cloud-computing",
         meta_style
     ))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#2B6CB0"), spaceAfter=8))
@@ -565,7 +565,7 @@ def build_technical_report(out_path="report/report.pdf"):
     story.append(Paragraph(
         "To empirically demonstrate gate enforcement, the pipeline was triggered with the un-fine-tuned Pythia-70M model. "
         "As documented in <code>results/untrained_validation.json</code>, the untrained model scored 0.0% validity, causing <code>score.py</code> "
-        "to exit with status 1 and successfully failing the pipeline run (Run ID: <code>https://github.com/jigarkumar23/cloud-assistant-kd/actions/runs/1173849201</code>).",
+        "to exit with status 1 and successfully failing the pipeline run (Run ID: <code>https://github.com/k-jigar/cloud-computing/actions/runs/1173849201</code>).",
         body_style
     ))
     story.append(Paragraph("<b>6.4 AI Usage Transparency (AI_USE.md):</b>", h2_style))
@@ -796,7 +796,7 @@ def build_handwritten_reflection(out_path="230103022.pdf"):
     story.append(Paragraph(
         "<b>Student:</b> Jigar Kumar &nbsp;|&nbsp; <b>Roll Number:</b> 230103022 &nbsp;|&nbsp; "
         "<b>Course:</b> Cloud Computing (CS3081) Mini Project<br/>"
-        "<b>GitHub Repository:</b> https://github.com/jigarkumar23/cloud-assistant-kd &nbsp;|&nbsp; <b>Instructor:</b> Michael Salam",
+        "<b>GitHub Repository:</b> https://github.com/k-jigar/cloud-computing &nbsp;|&nbsp; <b>Instructor:</b> Michael Salam",
         meta_style
     ))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#2B6CB0"), spaceAfter=8))

@@ -4,7 +4,7 @@
 **Student Name:** Jigar Kumar  
 **Roll Number:** 230103022  
 **Instructor:** Michael Salam  
-**GitHub Repository:** [https://github.com/jigarkumar23/cloud-assistant-kd](https://github.com/jigarkumar23/cloud-assistant-kd)  
+**GitHub Repository:** [https://github.com/k-jigar/cloud-computing](https://github.com/k-jigar/cloud-computing)  
 **Final Submission Commit Tag:** `final`  
 
 ---
